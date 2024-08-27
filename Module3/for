@@ -1,0 +1,6 @@
+numbers = []
+
+for indice in range(5):
+    numbers.append(indice + 1)
+
+print(numbers)

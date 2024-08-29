@@ -1,0 +1,8 @@
+numbers = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+numeros_sem_repeticao = []
+
+for numero in numbers: # para cada numero em numeros
+    if numero not in numeros_sem_repeticao: # se o numero nao estiver em numeros sem repeticao
+        numeros_sem_repeticao.append(numero) # adicione ele
+
+print(numeros_sem_repeticao)

@@ -1,0 +1,14 @@
+ZeroDivisionError
+Isso aparece quando você tenta forçar o Python a executar qualquer operação que provoque uma divisão na qual o divisor é zero ou é indistinguível de zero. Observe que há mais de um operador Python que pode causar essa exceção.
+
+ValueError
+Espere essa exceção ao lidar com valores que podem ser usados de forma inadequada em algum contexto. Em geral, essa exceção é gerada quando uma função (como int() ou float()) recebe um argumento de um tipo adequado, mas seu valor é inaceitável.
+
+TypeError
+Essa exceção aparece quando você tenta aplicar dados cujo tipo não pode ser aceito no contexto atual.
+
+AttributeError
+Essa exceção chega, entre outras ocasiões, quando você tenta ativar um método que não existe em um item com o qual está lidando.
+
+SyntaxError
+Essa exceção é gerada quando o controle atinge uma linha de código que viola a gramática do Python.
